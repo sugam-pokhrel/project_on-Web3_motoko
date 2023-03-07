@@ -1,0 +1,6 @@
+service : {
+  calculateintrest: () -> () oneway;
+  checkBal: () -> (float64) query;
+  deposit: (float64) -> () oneway;
+  withdraW: (float64) -> () oneway;
+}
